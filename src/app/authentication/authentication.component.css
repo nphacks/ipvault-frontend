@@ -1,0 +1,61 @@
+.auth-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-card {
+    height: 500px;
+    width: 600px;
+    background-color: rgba(167, 171, 222, 0.25);
+    display: block;
+    margin: 20px auto;
+}
+
+
+.tab-content {
+    padding: 20px;
+    height: 100%;
+    background-color: white;
+}
+
+.auth-form {
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.login-form {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: inherit;
+    overflow-y: hidden;
+}
+
+.signup-form {
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: inherit;
+}
+
+.form-input-container {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.form-button-container {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
